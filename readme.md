@@ -1,4 +1,4 @@
-## [DeployedLink]()
+## [DeployedLink](https://seo-project.netlify.app/)
 # SEO - HTML ![HTML5](./readmeImgs/html-5.png) and CSS ![CSS3](./readmeImgs/css-3.png)
 By Shiwansh
 ## Complete Project
