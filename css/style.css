@@ -1,0 +1,138 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', 'sans-serif';
+}
+:root{
+  --white: #fff;
+  --light-black: rgba(0, 0, 0, 0.7);
+  --dark-black: #000;
+  --light-blue: #383CC1;
+  --dark-blue: #120E43;
+}
+
+img{
+  height: 100%;
+  width: 100%;
+}
+.active{
+  color: #000;
+  font-weight: 600;
+}
+.col-btn{
+  color: var(--white);
+  background-color: var(--light-blue);
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+/* Navbar */
+.logo-container{
+    display: flex;
+    align-items: center;
+  }
+.navbar-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  height: 20vh;
+}
+
+
+.grow-list{
+  padding-left: 2rem;
+}
+
+.list{
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  gap: 3rem;
+  color: var(--light-black);
+  font-size: 20px;
+  font-weight: 400;
+}
+li:hover{
+  color: var(--dark-black);
+  font-weight: 600;
+  cursor: pointer;
+}
+.button-group{
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-button{
+  font-size: 2.75vh;
+  padding: 1vh 2.2vw;
+}
+
+/* Banner */
+.banner-container{
+  display: flex;
+  justify-content: space-between;
+  height: calc(100vh - 20vh);
+  margin-bottom: 0;
+}
+/* image */
+.banner-img{
+  width: 100%;
+}
+.right-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 2rem;
+  gap: 2rem;
+  width: 60%;
+}
+.description{
+  margin-bottom: 2rem;
+  color: var(--light-black);
+}
+.heading-text{
+  color: var(--dark-blue);
+  font-size: 4rem;
+}
+.heading-text span{
+  color: var(--light-blue);
+}
+
+
+/* Responsive Design for small screen */
+@media screen and (max-width: 992px) {
+  body{
+    background-color: #adff2f;
+  }
+  
+  .logo{
+    width: 13.5vw;
+  }
+  .list{
+    padding: 0 1vw;
+    gap: 1.5vw;
+  }
+  .list-item{
+    font-size: 1.75vh;
+  }
+  .nav-button{
+    font-size: 1.5vh;
+  }
+  .right-text{
+    text-align: center;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 1vh 1.5vw;
+  }
+  .banner-img{
+    display: none;
+  }
+  .banner-container{
+    justify-content: center;
+  }
+  
+}
