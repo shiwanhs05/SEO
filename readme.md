@@ -6,4 +6,4 @@ By Shiwansh
 ## Responsive Design - Small Screen
 ![SmallScreen](./readmeImgs/small-screen.PNG)
 
-# It took me 2 hours to complete this project
+## It took me 2 hours to complete this project.
